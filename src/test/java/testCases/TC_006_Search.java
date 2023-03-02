@@ -1,13 +1,14 @@
 package testCases;
 
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import testBase.BaseClass;
 
 public class TC_006_Search extends BaseClass {
-	
+	@Test(groups= {"Master","Sanity","Regression"})
 	public void SearchFunctionalityTest() {
 		logger.info("Starting TC_006_Search test");
 		try {
