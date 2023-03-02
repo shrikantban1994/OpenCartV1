@@ -66,3 +66,114 @@
 16:28:20.981 [main] INFO  testCases.TC_005_ForgotPasswordTest - Clicked on Continue btn
 16:28:21.080 [main] INFO  testCases.TC_005_ForgotPasswordTest - Displayed Confirmation massege verification pass
 16:28:21.081 [main] INFO  testCases.TC_005_ForgotPasswordTest - End TC_004_ForgotPasswordTest
+17:32:32.240 [main] INFO  testCases.TC_001_AccountRegistrationTest - *** Staring TC_001_AccountRegistrationTest *** 
+17:32:32.646 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on MyAccount link
+17:32:34.167 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register link
+17:32:34.198 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing customer data
+17:32:38.100 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Continue button
+17:32:43.185 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validating Expected Message
+17:32:43.190 [main] INFO  testCases.TC_001_AccountRegistrationTest - *** Finished TC_001_AccountRegistrationTest *** 
+18:29:34.288 [main] INFO  testCases.TC_001_AccountRegistrationTest - *** Staring TC_001_AccountRegistrationTest *** 
+18:29:34.654 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on MyAccount link
+18:29:36.372 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register link
+18:29:36.379 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing customer data
+18:29:41.344 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Continue button
+18:29:46.456 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validating Expected Message
+18:29:46.462 [main] INFO  testCases.TC_001_AccountRegistrationTest - *** Finished TC_001_AccountRegistrationTest *** 
+18:29:55.208 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+18:30:13.705 [main] INFO  testCases.TC_003_LoginDataDrivenTest - ****   started TC_003_LoginDDT   ****
+18:30:14.001 [main] INFO  testCases.TC_003_LoginDataDrivenTest - clicked on MyAccount
+18:30:15.277 [main] INFO  testCases.TC_003_LoginDataDrivenTest - clicked on login
+18:30:16.204 [main] INFO  testCases.TC_003_LoginDataDrivenTest - entered email address
+18:30:16.643 [main] INFO  testCases.TC_003_LoginDataDrivenTest - Entered password
+18:30:41.952 [main] INFO  testCases.TC_003_LoginDataDrivenTest - ****   started TC_003_LoginDDT   ****
+18:30:42.164 [main] INFO  testCases.TC_003_LoginDataDrivenTest - clicked on MyAccount
+18:30:43.122 [main] INFO  testCases.TC_003_LoginDataDrivenTest - clicked on login
+18:30:43.501 [main] INFO  testCases.TC_003_LoginDataDrivenTest - entered email address
+18:30:43.703 [main] INFO  testCases.TC_003_LoginDataDrivenTest - Entered password
+18:31:09.091 [main] INFO  testCases.TC_003_LoginDataDrivenTest - ****   started TC_003_LoginDDT   ****
+18:31:09.217 [main] INFO  testCases.TC_003_LoginDataDrivenTest - clicked on MyAccount
+18:31:10.080 [main] INFO  testCases.TC_003_LoginDataDrivenTest - clicked on login
+18:31:10.367 [main] INFO  testCases.TC_003_LoginDataDrivenTest - entered email address
+18:31:10.600 [main] INFO  testCases.TC_003_LoginDataDrivenTest - Entered password
+18:31:35.563 [main] INFO  testCases.TC_003_LoginDataDrivenTest - ****   started TC_003_LoginDDT   ****
+18:31:35.754 [main] INFO  testCases.TC_003_LoginDataDrivenTest - clicked on MyAccount
+18:31:36.686 [main] INFO  testCases.TC_003_LoginDataDrivenTest - clicked on login
+18:31:36.999 [main] INFO  testCases.TC_003_LoginDataDrivenTest - entered email address
+18:31:37.163 [main] INFO  testCases.TC_003_LoginDataDrivenTest - Entered password
+18:32:02.225 [main] INFO  testCases.TC_003_LoginDataDrivenTest - ****   started TC_003_LoginDDT   ****
+18:32:02.511 [main] INFO  testCases.TC_003_LoginDataDrivenTest - clicked on MyAccount
+18:32:03.580 [main] INFO  testCases.TC_003_LoginDataDrivenTest - clicked on login
+18:32:03.895 [main] INFO  testCases.TC_003_LoginDataDrivenTest - entered email address
+18:32:04.110 [main] INFO  testCases.TC_003_LoginDataDrivenTest - Entered password
+18:32:16.864 [main] INFO  testCases.TC_004_LogOutTest - Starting TC_004_LogOutTest
+18:32:17.733 [main] INFO  testCases.TC_004_LogOutTest - Click on MyAccount link
+18:32:19.294 [main] INFO  testCases.TC_004_LogOutTest - Click on Login link
+18:32:19.661 [main] INFO  testCases.TC_004_LogOutTest - Entered mail
+18:32:20.002 [main] INFO  testCases.TC_004_LogOutTest - Entered Password
+18:32:21.181 [main] INFO  testCases.TC_004_LogOutTest - Click on Login Button
+18:32:21.300 [main] INFO  testCases.TC_004_LogOutTest - MyAccount Page Verification pass
+18:32:22.260 [main] INFO  testCases.TC_004_LogOutTest - Clicked on Logout button
+18:32:22.381 [main] INFO  testCases.TC_004_LogOutTest - Logout Page Verification pass
+18:32:23.384 [main] INFO  testCases.TC_004_LogOutTest - End TC_004_LogOutTest
+18:32:30.217 [main] INFO  testCases.TC_005_ForgotPasswordTest - Starting TC_005_ForgotPasswordTest
+18:32:31.108 [main] INFO  testCases.TC_005_ForgotPasswordTest - Clicked on MyAccount link
+18:32:32.290 [main] INFO  testCases.TC_005_ForgotPasswordTest - Clicked on LoginPage link
+18:32:33.265 [main] INFO  testCases.TC_005_ForgotPasswordTest - Clicked on ForgotPassword link
+18:32:33.738 [main] INFO  testCases.TC_005_ForgotPasswordTest - Entered Mailid
+18:32:33.816 [main] INFO  testCases.TC_005_ForgotPasswordTest - Displayed back button verification pass
+18:32:36.017 [main] INFO  testCases.TC_005_ForgotPasswordTest - Clicked on Continue btn
+18:32:36.160 [main] INFO  testCases.TC_005_ForgotPasswordTest - Displayed Confirmation massege verification pass
+18:32:36.160 [main] INFO  testCases.TC_005_ForgotPasswordTest - End TC_004_ForgotPasswordTest
+18:34:25.738 [main] INFO  testCases.TC_001_AccountRegistrationTest - *** Staring TC_001_AccountRegistrationTest *** 
+18:34:26.239 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on MyAccount link
+18:34:28.043 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Register link
+18:34:28.056 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing customer data
+18:34:33.025 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on Continue button
+18:34:38.137 [main] INFO  testCases.TC_001_AccountRegistrationTest - Validating Expected Message
+18:34:38.142 [main] INFO  testCases.TC_001_AccountRegistrationTest - *** Finished TC_001_AccountRegistrationTest *** 
+18:34:45.173 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+18:35:03.974 [main] INFO  testCases.TC_003_LoginDataDrivenTest - ****   started TC_003_LoginDDT   ****
+18:35:04.256 [main] INFO  testCases.TC_003_LoginDataDrivenTest - clicked on MyAccount
+18:35:05.540 [main] INFO  testCases.TC_003_LoginDataDrivenTest - clicked on login
+18:35:05.989 [main] INFO  testCases.TC_003_LoginDataDrivenTest - entered email address
+18:35:06.188 [main] INFO  testCases.TC_003_LoginDataDrivenTest - Entered password
+18:35:31.399 [main] INFO  testCases.TC_003_LoginDataDrivenTest - ****   started TC_003_LoginDDT   ****
+18:35:31.589 [main] INFO  testCases.TC_003_LoginDataDrivenTest - clicked on MyAccount
+18:35:32.689 [main] INFO  testCases.TC_003_LoginDataDrivenTest - clicked on login
+18:35:33.062 [main] INFO  testCases.TC_003_LoginDataDrivenTest - entered email address
+18:35:33.361 [main] INFO  testCases.TC_003_LoginDataDrivenTest - Entered password
+18:35:58.520 [main] INFO  testCases.TC_003_LoginDataDrivenTest - ****   started TC_003_LoginDDT   ****
+18:35:58.692 [main] INFO  testCases.TC_003_LoginDataDrivenTest - clicked on MyAccount
+18:35:59.696 [main] INFO  testCases.TC_003_LoginDataDrivenTest - clicked on login
+18:36:00.067 [main] INFO  testCases.TC_003_LoginDataDrivenTest - entered email address
+18:36:00.248 [main] INFO  testCases.TC_003_LoginDataDrivenTest - Entered password
+18:36:25.163 [main] INFO  testCases.TC_003_LoginDataDrivenTest - ****   started TC_003_LoginDDT   ****
+18:36:25.347 [main] INFO  testCases.TC_003_LoginDataDrivenTest - clicked on MyAccount
+18:36:26.281 [main] INFO  testCases.TC_003_LoginDataDrivenTest - clicked on login
+18:36:26.612 [main] INFO  testCases.TC_003_LoginDataDrivenTest - entered email address
+18:36:26.822 [main] INFO  testCases.TC_003_LoginDataDrivenTest - Entered password
+18:36:51.995 [main] INFO  testCases.TC_003_LoginDataDrivenTest - ****   started TC_003_LoginDDT   ****
+18:36:52.127 [main] INFO  testCases.TC_003_LoginDataDrivenTest - clicked on MyAccount
+18:36:52.958 [main] INFO  testCases.TC_003_LoginDataDrivenTest - clicked on login
+18:36:53.599 [main] INFO  testCases.TC_003_LoginDataDrivenTest - entered email address
+18:36:53.807 [main] INFO  testCases.TC_003_LoginDataDrivenTest - Entered password
+18:37:06.576 [main] INFO  testCases.TC_004_LogOutTest - Starting TC_004_LogOutTest
+18:37:07.398 [main] INFO  testCases.TC_004_LogOutTest - Click on MyAccount link
+18:37:08.644 [main] INFO  testCases.TC_004_LogOutTest - Click on Login link
+18:37:09.055 [main] INFO  testCases.TC_004_LogOutTest - Entered mail
+18:37:09.293 [main] INFO  testCases.TC_004_LogOutTest - Entered Password
+18:37:10.607 [main] INFO  testCases.TC_004_LogOutTest - Click on Login Button
+18:37:10.728 [main] INFO  testCases.TC_004_LogOutTest - MyAccount Page Verification pass
+18:37:11.790 [main] INFO  testCases.TC_004_LogOutTest - Clicked on Logout button
+18:37:11.876 [main] INFO  testCases.TC_004_LogOutTest - Logout Page Verification pass
+18:37:12.970 [main] INFO  testCases.TC_004_LogOutTest - End TC_004_LogOutTest
+18:37:19.201 [main] INFO  testCases.TC_005_ForgotPasswordTest - Starting TC_005_ForgotPasswordTest
+18:37:20.026 [main] INFO  testCases.TC_005_ForgotPasswordTest - Clicked on MyAccount link
+18:37:21.247 [main] INFO  testCases.TC_005_ForgotPasswordTest - Clicked on LoginPage link
+18:37:22.178 [main] INFO  testCases.TC_005_ForgotPasswordTest - Clicked on ForgotPassword link
+18:37:22.586 [main] INFO  testCases.TC_005_ForgotPasswordTest - Entered Mailid
+18:37:22.658 [main] INFO  testCases.TC_005_ForgotPasswordTest - Displayed back button verification pass
+18:37:25.028 [main] INFO  testCases.TC_005_ForgotPasswordTest - Clicked on Continue btn
+18:37:25.159 [main] INFO  testCases.TC_005_ForgotPasswordTest - Displayed Confirmation massege verification pass
+18:37:25.159 [main] INFO  testCases.TC_005_ForgotPasswordTest - End TC_004_ForgotPasswordTest

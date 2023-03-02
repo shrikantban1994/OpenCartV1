@@ -3,7 +3,8 @@ package pageObjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
+import org.testng.annotations.Test;
+@Test(groups= {"Master","Sanity","Regression"})
 public class HomePage extends BasePage {
 	public HomePage(WebDriver driver) {
 		super(driver);
@@ -19,6 +20,11 @@ public class HomePage extends BasePage {
 	@FindBy(xpath = "//a[text()='Login']")
 	WebElement linkLogin;
 	
+	@FindBy(xpath = "//input[@name='search']")
+	WebElement Searchtxt;
+	
+	@FindBy(xpath = "//button[@class='btn btn-default btn-lg']")
+	WebElement Searchbtn;
 	
 	//Action Methods
 	public void ClickOnMyAccountLink() {
@@ -31,5 +37,11 @@ public class HomePage extends BasePage {
 
 	public void ClickOnLoginLink() {
 		linkLogin.click();
+	}
+	public void EnterSearchitem(String item) {
+		Searchtxt.sendKeys(item);
+	}
+	public void ClickOnSearchbtn() {
+		Searchbtn.click();
 	}
 }
