@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
+import pageObjects.SearchPage;
 import testBase.BaseClass;
 
 public class TC_006_Search extends BaseClass {
@@ -27,10 +28,20 @@ public class TC_006_Search extends BaseClass {
 			String Title = driver.getTitle();
 			if(Title.equals("Search - mac")) {
 				Assert.assertTrue(true);
-				logger.info("Test case is passed");
+				logger.info("Verified Page Title is correct");
 			}else {
 				Assert.assertTrue(false);
-				logger.info("Test Case is failed");
+				logger.info("Verified title is incorrect");
+			}
+			
+			SearchPage sp =new SearchPage(driver);
+			sp.SelectSortByOption("Name (A - Z)");
+			if(sp.VerifySearchItems()){
+				Assert.assertTrue(true);
+				logger.info("All Sorted items is correct");
+			}else {
+				Assert.assertTrue(false);
+				logger.info("All Sorted items is incorrect");
 			}
 			
 		}catch (Exception e) {
