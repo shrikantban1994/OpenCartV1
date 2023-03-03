@@ -22,9 +22,9 @@ public class SearchPage extends BasePage {
 	@FindBy(xpath = "//div[@class='caption']//a")
 	List<WebElement> AllSearchItem;
 
-	public void SelectSortByOption(String value) {
+	public void SelectSortByOption(int value) {
 		Select se = new Select(SortByOption);
-		se.selectByValue(value);
+		se.selectByIndex(value);
 	}
 
 	public boolean VerifySearchItems() {

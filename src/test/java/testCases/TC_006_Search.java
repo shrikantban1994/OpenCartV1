@@ -35,7 +35,7 @@ public class TC_006_Search extends BaseClass {
 			}
 			
 			SearchPage sp =new SearchPage(driver);
-			sp.SelectSortByOption("Name (A - Z)");
+			sp.SelectSortByOption(1);
 			if(sp.VerifySearchItems()){
 				Assert.assertTrue(true);
 				logger.info("All Sorted items is correct");
