@@ -22,28 +22,28 @@ public class SearchPage extends BasePage {
 	@FindBy(xpath = "//div[@class='caption']//a")
 	List<WebElement> AllSearchItem;
 
-	public void SelectSortByOption(int value) {
+	public void SelectSortByOption() {
 		Select se = new Select(SortByOption);
-		se.selectByIndex(value);
+		se.selectByIndex(1);
 	}
 
 	public boolean VerifySearchItems() {
 		List<String> ItemList = new ArrayList<String>();
-		try {
-			for (WebElement element : AllSearchItem) {
-				ItemList.add(element.getText());
-			}
-			List<String> SortedList = new ArrayList<String>(ItemList);
-			Collections.sort(SortedList);
-			if (SortedList.equals(ItemList)) {
-				return true;
-			} else {
-				return false;
-			}
-		} catch (Exception e) {
+		for (WebElement element : AllSearchItem) {
+			ItemList.add(element.getText());
+		}
+		System.out.println(ItemList);
+		List<String> SortedList = new ArrayList<String>();
+		for (String Item : ItemList) {
+			SortedList.add(Item);
+		}
+		Collections.sort(SortedList);
+		System.out.println(SortedList);
+		if (SortedList.equals(ItemList)) {
+			return true;
+		} else {
 			return false;
 		}
-
 	}
 
 }

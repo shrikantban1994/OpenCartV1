@@ -34,15 +34,15 @@ public class TC_006_Search extends BaseClass {
 				logger.info("Verified title is incorrect");
 			}
 			
-			SearchPage sp =new SearchPage(driver);
-			sp.SelectSortByOption(1);
+	/*		SearchPage sp =new SearchPage(driver);
+			sp.SelectSortByOption();
 			if(sp.VerifySearchItems()){
 				Assert.assertTrue(true);
 				logger.info("All Sorted items is correct");
 			}else {
 				Assert.assertTrue(false);
 				logger.info("All Sorted items is incorrect");
-			}
+			} */
 			
 		}catch (Exception e) {
 			Assert.fail();

@@ -12,46 +12,11 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC_004_LogOutTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="setup"/>
-          <include name="LogOutTest"/>
-        </methods>
-      </class> <!-- testCases.TC_004_LogOutTest -->
-      <class name="testCases.TC_005_ForgotPasswordTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="ForgotPasswordTest"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_005_ForgotPasswordTest -->
-      <class name="testCases.TC_003_LoginDataDrivenTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="test_loginDDT"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_003_LoginDataDrivenTest -->
-      <class name="testCases.TC_002_LoginTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="LoginTest"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_002_LoginTest -->
-      <class name="testCases.TC_001_AccountRegistrationTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="setup"/>
-          <include name="test_Account_Registration"/>
-        </methods>
-      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
       <class name="testCases.TC_006_Search">
         <methods>
           <include name="teardown"/>
-          <include name="ValidateSearchFunction"/>
           <include name="setup"/>
+          <include name="SearchFunctionalityTest"/>
         </methods>
       </class> <!-- testCases.TC_006_Search -->
     </classes>
