@@ -16,7 +16,7 @@ public class SearchPage extends BasePage {
 
 	}
 
-	@FindBy(id = "input-sort")
+	@FindBy(xpath = "//select[@id='input-sort']")
 	WebElement SortByOption;
 
 	@FindBy(xpath = "//div[@class='caption']//a")
