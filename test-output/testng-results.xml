@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-05T11:01:48 IST" name="OpenCartSuite" finished-at="2023-03-05T11:02:23 IST" duration-ms="35430">
+    <groups>
+      <group name="Master">
+        <method signature="TC_008_ProductDisplayFunctionalityTest.ProductCompareFunctionalityTest()[pri:0, instance:testCases.TC_008_ProductDisplayFunctionalityTest@4ec4f3a0]" name="ProductCompareFunctionalityTest" class="testCases.TC_008_ProductDisplayFunctionalityTest"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC_008_ProductDisplayFunctionalityTest.ProductCompareFunctionalityTest()[pri:0, instance:testCases.TC_008_ProductDisplayFunctionalityTest@4ec4f3a0]" name="ProductCompareFunctionalityTest" class="testCases.TC_008_ProductDisplayFunctionalityTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC_008_ProductDisplayFunctionalityTest.ProductCompareFunctionalityTest()[pri:0, instance:testCases.TC_008_ProductDisplayFunctionalityTest@4ec4f3a0]" name="ProductCompareFunctionalityTest" class="testCases.TC_008_ProductDisplayFunctionalityTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-03-05T11:01:48 IST" name="OpenCartTest" finished-at="2023-03-05T11:02:23 IST" duration-ms="35430">
+      <class name="testCases.TC_008_ProductDisplayFunctionalityTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_008_ProductDisplayFunctionalityTest@4ec4f3a0]" started-at="2023-03-05T11:01:48 IST" name="setup" finished-at="2023-03-05T11:02:03 IST" duration-ms="14609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ProductCompareFunctionalityTest()[pri:0, instance:testCases.TC_008_ProductDisplayFunctionalityTest@4ec4f3a0]" started-at="2023-03-05T11:02:03 IST" name="ProductCompareFunctionalityTest" finished-at="2023-03-05T11:02:22 IST" duration-ms="18970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductCompareFunctionalityTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_008_ProductDisplayFunctionalityTest@4ec4f3a0]" started-at="2023-03-05T11:02:22 IST" name="teardown" finished-at="2023-03-05T11:02:23 IST" duration-ms="983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_008_ProductDisplayFunctionalityTest -->
+    </test> <!-- OpenCartTest -->
+  </suite> <!-- OpenCartSuite -->
+</testng-results>

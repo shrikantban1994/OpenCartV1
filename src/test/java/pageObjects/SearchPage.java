@@ -30,6 +30,9 @@ public class SearchPage extends BasePage {
 	
 	@FindBy(xpath="//a[@id='compare-total']")
 	WebElement TotalComparelink;
+	
+	@FindBy(xpath="//img[@title='iMac']")
+	WebElement iMacimg;
 
 	public void SelectSortByOption() {
 		Select se = new Select(SortByOption);
@@ -62,6 +65,9 @@ public class SearchPage extends BasePage {
 	}
 	public void ClickOnTotalComparelink() {
 		TotalComparelink.click();
+	}
+	public void ClickOniMacimg() {
+		iMacimg.click();
 	}
 
 }
