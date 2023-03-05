@@ -21,6 +21,15 @@ public class SearchPage extends BasePage {
 
 	@FindBy(xpath = "//div[@class='caption']//a")
 	List<WebElement> AllSearchItem;
+	
+	@FindBy(xpath ="(//button[@data-toggle='tooltip']//i[@class='fa fa-exchange'])[1]")
+	WebElement ComparebtnforiMac;
+	
+	@FindBy(xpath ="(//button[@data-toggle='tooltip']//i[@class='fa fa-exchange'])[2]")
+	WebElement ComparebtnforMacBook;
+	
+	@FindBy(xpath="//a[@id='compare-total']")
+	WebElement TotalComparelink;
 
 	public void SelectSortByOption() {
 		Select se = new Select(SortByOption);
@@ -44,6 +53,15 @@ public class SearchPage extends BasePage {
 		} else {
 			return false;
 		}
+	}
+	public void ClickOnComapareiMacbtn() {
+		ComparebtnforiMac.click();
+	}
+	public void  ClickOnComapareMacBookbtn() {
+		ComparebtnforMacBook.click();
+	}
+	public void ClickOnTotalComparelink() {
+		TotalComparelink.click();
 	}
 
 }

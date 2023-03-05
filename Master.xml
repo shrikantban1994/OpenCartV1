@@ -21,6 +21,7 @@
       <class name="testCases.TC_004_LogOutTest"/>
       <class name="testCases.TC_005_ForgotPasswordTest"/> 
       <class name="testCases.TC_006_Search"/>
+      <class name="testCases.TC_007_ProductCompareFunctionalityTest"/>
     </classes>
   </test> <!-- OpenCartTest -->
 </suite> <!-- OpenCartSuite -->
