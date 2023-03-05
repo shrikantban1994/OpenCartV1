@@ -29,10 +29,12 @@ public class TC_007_ProductCompareFunctionalityTest extends BaseClass {
 			SearchPage sp =new SearchPage(driver);
 			sp.ClickOnComapareiMacbtn();
 			logger.info("Clicked on iMac Compare button");
+			Thread.sleep(5000);
 			sp.ClickOnComapareMacBookbtn();
 			logger.info("Clicked on MacBook Compare button");
 			sp.ClickOnTotalComparelink();
 			logger.info("Clicked on Total Compare link and navigate capare product page");
+			Thread.sleep(5000);
 			String PageTitle = driver.getTitle();
 			if(PageTitle.equals("Product Comparison")) {
 				Assert.assertTrue(true);

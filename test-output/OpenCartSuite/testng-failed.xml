@@ -12,13 +12,13 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC_006_Search">
+      <class name="testCases.TC_007_ProductCompareFunctionalityTest">
         <methods>
           <include name="teardown"/>
+          <include name="ProductCompareFunctionalityTest"/>
           <include name="setup"/>
-          <include name="SearchFunctionalityTest"/>
         </methods>
-      </class> <!-- testCases.TC_006_Search -->
+      </class> <!-- testCases.TC_007_ProductCompareFunctionalityTest -->
     </classes>
   </test> <!-- OpenCartTest(failed) -->
 </suite> <!-- Failed suite [OpenCartSuite] -->
